@@ -994,5 +994,95 @@ module.exports = {
     interval: 0,
     keyless: false,
     readOnly: false
-  }
+  },
+  xack: {
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: false,
+  },
+  xadd:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: false,
+  },
+  xclaim:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: false,
+  },
+  xdel:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: false,
+  },
+  xgroup:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: false,
+  },
+  xinfo:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: true,
+  },
+  xinfo:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: true,
+  },
+  xlen:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: true,
+  },
+  xpending:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: true,
+  },
+  xrange:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: true,
+  },
+  xread: {
+    multiKey: true,
+    interval: 0,
+    keyless: false,
+    readOnly: true,
+  },
+  xreadgroup: {
+    multiKey: true,
+    interval: 0,
+    keyless: false,
+    readOnly: true,
+  },
+  xrevrange:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: true,
+  },
+  xsetid:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: false,
+  },
+  xtrim:{
+    multiKey: false,
+    interval: 0,
+    keyless: false,
+    readOnly: false,
+  },
 };
